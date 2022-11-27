@@ -1,13 +1,16 @@
+/*applies to all elements of page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background color of body and aside*/
 body {
     background-color: #d9dcd6;
 }
 
+/*header formatting*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*formatting of horiseon h1 header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*formatting of seo text within horiseon header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*formatting of navigation within header section*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,24 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/*formatting of li elements within ul element*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*formatting of navigation links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*formatting of paragraph text within the body*/
 p {
     font-size: 16px;
 }
 
+/*formatting of hero at the top of the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,47 @@ p {
     background-position: center;
 }
 
+/*formatting of images set to float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*formatting of images set to float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*formatting of main section of the body*/
 .services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*formatting of each sub-scetion within main section*/
+.service-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*formatting of images within service-content section*/
+.service-content img {
+    max-height: 200px;
+}
+
+/*formatting of h2 headers within service-content section*/
+.service-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*formatting of aside element of the body*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,41 +117,27 @@ p {
     background-color: #2589bd;
 }
 
+/*formatting of sub-sections within aside element*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
     margin-top: 32px;
 }
 
+/*formatting of h3 headers within benefit-lead section*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*formatting of images within benefit-lead section*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.service-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.service-content img {
-    max-height: 200px;
-}
-
-.service-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*formatting of footer element*/
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +145,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/*formatting of h4 headers within footer element*/
+.footer h4 {
     font-size: 20px;
 }
