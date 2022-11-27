@@ -14,7 +14,7 @@ This website's code has been refactored for accessability. Reference the code to
 
 Link to repo on GitHub: https://github.com/mtstall/horiseon-code-refactor <br>
 Link to deployed website: https://mtstall.github.io/horiseon-code-refactor/
-<img src="./assets/images/mtstall.github.io_horiseon-code-refactor_" alt="screenshot of deployed site"/>
+<img src="./assets/images/horiseon-code-refactor" alt="screenshot of deployed site"/>
 
 ## Credits
 
