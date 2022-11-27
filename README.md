@@ -12,8 +12,10 @@ N/A
 
 This website's code has been refactored for accessability. Reference the code to view semantic HTML elements, logical HTML structures, accessible alt attributes, and sequentially ordered heading attributes.
 
-Website URL: 
-<!--add image of deployed website>
+Link to repo on GitHub: https://github.com/mtstall/horiseon-code-refactor
+Link to deployed website: https://mtstall.github.io/horiseon-code-refactor/
+<img src="./assets/images/deployed-site-1.png" alt="screenshot of first page of deployed site"/>
+
 
 
 ## Credits
